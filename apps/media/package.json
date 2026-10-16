@@ -1,0 +1,17 @@
+{
+  "name": "@learnly/media",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch ../../packages/backend/src/media-main.ts",
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "start": "node ../../packages/backend/dist/media-main.js"
+  },
+  "dependencies": {
+    "@learnly/backend": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0"
+  }
+}

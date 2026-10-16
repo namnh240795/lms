@@ -1,0 +1,17 @@
+{
+  "name": "@learnly/gateway",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch ../../packages/backend/src/server.ts gateway",
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "start": "node ../../packages/backend/dist/server.js gateway"
+  },
+  "dependencies": {
+    "@learnly/backend": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0"
+  }
+}

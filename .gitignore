@@ -1,0 +1,15 @@
+node_modules
+.env
+dist
+.vite
+*.tsbuildinfo
+
+.storage/
+
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+data/gplx/import-result.json

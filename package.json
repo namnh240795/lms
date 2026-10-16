@@ -1,0 +1,28 @@
+{
+  "name": "learnly",
+  "private": true,
+  "packageManager": "pnpm@12.10.1",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm --filter @learnly/backend test && pnpm --filter @learnly/web test",
+    "infra:up": "docker compose up -d --wait",
+    "infra:down": "docker compose down",
+    "db:setup": "pnpm --filter @learnly/backend db:setup",
+    "test:e2e": "node scripts/smoke.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test:media": "node scripts/media-smoke.mjs",
+    "test:quizzes": "node scripts/quiz-smoke.mjs",
+    "test:learning-tools": "node scripts/learning-tools-smoke.mjs",
+    "test:certificates": "node scripts/certificate-smoke.mjs",
+    "course:gplx": "node scripts/import-gplx.mjs",
+    "test:exams": "pnpm --filter @learnly/backend exec tsx ../../scripts/exam-smoke.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "prettier": "^3.9.10",
+    "typescript": "^5.9.3"
+  }
+}

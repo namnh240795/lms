@@ -1,0 +1,17 @@
+{
+  "title": "Bộ 600 câu hỏi Cục CSGT 2025",
+  "sourceUrl": "https://csgtmedia.bocongan.gov.vn/upload/services/725823572_600%20c%C3%A2u%20h%E1%BB%8Fi%20d%C3%B9ng%20cho%20s%C3%A1t%20h%E1%BA%A1ch%20GPLX%20c%C6%A1%20gi%E1%BB%9Bi%20%C4%91%C6%B0%E1%BB%9Dng%20b%E1%BB%99.pdf",
+  "criticalSourceUrl": "https://xaydungchinhsach.chinhphu.vn/60-cau-hoi-ve-xu-ly-tinh-huong-mat-an-toan-giao-thong-nghiem-trong-119250513145731021.htm",
+  "questionCount": 600,
+  "criticalCount": 60,
+  "imageCount": 317,
+  "chapters": 6,
+  "practiceLessons": 27,
+  "publication": "private draft",
+  "normalizations": [
+    "Câu 507 uses colon instead of period in source numbering.",
+    "Horizontal answers are split into independent options.",
+    "Question 3 PDF glyph spacing: đường b ộ normalized to đường bộ."
+  ],
+  "review": "Structural validation complete; inspect against source before publishing. This course contains chapter practice, not timed mock exams."
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@learnly/catalog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch ../../packages/backend/src/server.ts catalog",
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "start": "node ../../packages/backend/dist/server.js catalog"
+  },
+  "dependencies": {
+    "@learnly/backend": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@learnly/learning",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch ../../packages/backend/src/server.ts learning",
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "start": "node ../../packages/backend/dist/server.js learning"
+  },
+  "dependencies": {
+    "@learnly/backend": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0"
+  }
+}
